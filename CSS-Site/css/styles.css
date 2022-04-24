@@ -51,9 +51,7 @@ p {
 
 .bottom-container{
     background-color: #66BFBF;
-    position:relative;
-    padding-bottom:50px;
-    padding-top: 50px;
+    padding: 50px 0 20px;
 }
 
 .bottom-cloud{
@@ -69,17 +67,19 @@ p {
 }
 a{
     color:#11999E;
-
+    font-family: 'Montserrat', sans-serif;
+    margin: 10px 20px;
+    text-decoration:none;
 }
 
-.footer-link {
-    text-decoration:none;
-    margin:30px;
+a:hover {
+color: #EAF6F6;
 }
 
 .bottom-container p{
     color:#EAF6F6;
-    line-height:2;
+    font-size:0.75rem;
+    padding: 20px 0;
 }
 .profile {
     margin:60px auto 60px auto;
@@ -104,7 +104,8 @@ a{
 }
 
 .desc-2 {
-    padding-bottom:30px;
+    margin:40px auto 60px;
+    width: 40%;
 }
 
 .btn {
@@ -117,7 +118,7 @@ a{
     -webkit-border-radius: 8;
     -moz-border-radius: 8;
     border-radius: 8px;
-    font-family: Arial;
+    font-family: 'Montserrat', sans-serif;
     color: #ffffff;
     font-size: 20px;
     padding: 10px 20px 10px 20px;
